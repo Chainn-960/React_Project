@@ -2,15 +2,21 @@ import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import Hello from './Hello';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './components/Home';
+import Examples from './Examples';
+import Api from './components/Api';
 
 function App() {
   return (
-    <div className="App">
-     
-        <div><Hello /></div>
+    //<d<div className="App">
+    <>
     
-    </div>
-   
+     <Examples/>
+     <Api/>
+       
+   </>
   );
 }
 
