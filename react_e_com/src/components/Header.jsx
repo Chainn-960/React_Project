@@ -1,22 +1,9 @@
-//import { useContext } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
-//import { Link } from "react-router-dom";
+import React from 'react'
 
 function Header() {
- // const { cart } = useContext(CartContext);
-
   return (
-    <header className="header">
-      <h2>MyShop</h2>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/products">Products</Link>
-        
-        
-      </nav>
-    </header>
-  );
+    <div>Header</div>
+  )
 }
 
-export default Header;
+export default Header
