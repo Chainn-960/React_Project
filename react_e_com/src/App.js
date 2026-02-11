@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import './index.css';
-import Hello from './Hello';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './components/Home';
+//import Hello from './Hello';
+//import Header from './components/Header';
+
 import Examples from './Examples';
 import Api from './components/Api';
+
+
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
     <>
     
      <Examples/>
+     
+     
      <Api/>
        
    </>

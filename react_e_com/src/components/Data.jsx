@@ -1,0 +1,13 @@
+export default{
+    server:{
+        porxy:{
+            '/api':{
+                target:'https://jsonplaceholder.typicode.com/',
+                changeOrigin:true,
+                pathRewrite:{
+                    '^/api':''
+                }
+            }
+        }
+    }
+}
